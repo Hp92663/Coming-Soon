@@ -142,3 +142,9 @@ input::placeholder {
     background-color: #fff;
     color: #0d6a81;
 }
+
+@media screen and (max-width: 300px) {
+    .container header {
+        font-size: 50px;
+    }
+}

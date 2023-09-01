@@ -27,11 +27,10 @@ let secValue = 44,
             clearInterval(timeFunction);
         }
 
-        console.log(secValue);
-        seconds.textContent = secValue;
-        minutes.textContent = minValue;
-        hours.textContent = hourValue;
-        days.textContent = dayValue;
+        seconds.textContent = secValue < 10 ? `0${secValue}` : secValue;
+        minutes.textContent = minValue < 10 ? `0${minValue}` : minValue;
+        hours.textContent = hourValue < 10 ? `0${hourValue}` : hourValue;
+        days.textContent = dayValue < 10 ? `0${dayValue}` : dayValue;
     }, 1000);
 
     //   console.log(days, hours, minutes, seconds);
