@@ -1,26 +1,37 @@
+const days = document.querySelector('.days .number');
+      hours = document.querySelector('.hours .number');
+      minutes = document.querySelector('.minutes .number');
+      seconds = document.querySelector('.seconds .number');
 
+let secValue = 44,
+    minValue = 4,
+    hourValue = 4,
+    dayValue = 4;
 
-// .input-box input,
-// .input-box button {
-//     height: 100%;
-//     outline: none;
-//     border: none;
-//     border: 1px solid #fff;
-//     border-radius: 4px;
-//     background-color: rgba(255, 255, 255, 0.2);
-// }
+    const timeFunction = setInterval(() => {
+        secValue--;
 
-// .input-box input {
-//     width: 100%;
-//     padding: 0 15px;
-// }
+        if (secValue < 0) {
+            secValue = 59;
+            minValue--;
+        }
+        if (minValue < 0) {
+            minValue = 59;
+            hourValue--;
+        }
+        if (hourValue < 0) {
+            hourValue = 23;
+            dayValue--;
+        }
+        if (dayValue < 0) {
+            clearInterval(timeFunction);
+        }
 
-// .input::placeholder {
-//     color: #fff;
-// }
+        console.log(secValue);
+        seconds.textContent = secValue;
+        minutes.textContent = minValue;
+        hours.textContent = hourValue;
+        days.textContent = dayValue;
+    }, 1000);
 
-// .input-box button {
-//     cursor: pointer;
-//     white-space: nowrap;
-//     padding: 0 20px;
-// }
+    //   console.log(days, hours, minutes, seconds);
