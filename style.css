@@ -162,7 +162,11 @@ input::placeholder {
     color: #0d6a81;
 }
 
-
+.title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+}
 
 @media screen and (max-width: 300px) {
     .container header {
