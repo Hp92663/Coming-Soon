@@ -16,15 +16,16 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Hp92663&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Hp92663&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-[![](https://visitcount.itsvg.in/api?id=Hp92663&label=Repository%20Views&color=0&icon=0&pretty=false)](https://visitcount.itsvg.in)
 
 #
 #
 <h1 align="center"> Coming Soon Website template</h1>
 
 
-[![](https://visitcount.itsvg.in/api?id=Hp92663&label=Repository%20Views&color=0&icon=2&pretty=false)](https://visitcount.itsvg.in) 
+[![](https://visitcount.itsvg.in/api?id=Hp92663&label=Repository%20Views&color=0&icon=0&pretty=false)](https://visitcount.itsvg.in)
+
 #
 
 ## Image
