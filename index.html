@@ -13,10 +13,14 @@
     <section class="container">
         <img src="images/image.jpg" alt="Hiren" class="image">
         <header>Coming Soon Website</header>
+        <div class="title" id="end-date">04/09/2023 10:00 AM</div>
         <p>
             Our Website is under construction. We`ll be here soon with our new awesome site ready to after lauch .
         </p>
 
+        <!--        
+            // for only countdown without date 
+            
         <div class="time-content">
             <div class="time days">
                 <span class="number"></span>
@@ -34,7 +38,34 @@
                 <span class="number"></span>
                 <span class="text">seconds</span>
             </div>
+        </div> -->
+
+        <!--  -->
+
+        <div class="time-content">
+            <div class="clock-input a1">
+                <input type="text" readonly value="0">
+                <br />
+                <label for="">days</label>
+            </div>
+            <div class="clock-input">
+                <input type="text" class="input-box2" readonly value="0">
+                <br />
+                <label for="">hours</label>
+            </div>
+            <div class="clock-input">
+                <input type="text" class="input-box2" readonly value="0">
+                <br />
+                <label for="">minutes</label>
+            </div>
+            <div class="clock-input seconds">
+                <input type="text" class="input-box2" readonly value="0">
+                <br />
+                <label for="">seconds</label>
+            </div>
         </div>
+
+        <!--  -->
 
         <div class="email-content">
             <p>Subscribe now to get the latest updates</p>
@@ -43,8 +74,9 @@
                 <input type="email" placeholder="Enter your email">
                 <button>Notify Me</button>
             </div>
+        </div>
     </section>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 
 </body>
 
